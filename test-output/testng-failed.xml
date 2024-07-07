@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.Login">
+        <methods>
+          <include name="verifyLoginWithoutEmailAndInvalidPassword"/>
+          <include name="verifyLoginWithValidEmailAndInvalidPassword"/>
+          <include name="setup"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="verifyLoginWithInvalidEmailAndValidPassword"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
